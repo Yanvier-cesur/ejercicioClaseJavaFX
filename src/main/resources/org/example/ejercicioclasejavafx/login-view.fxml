@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane minHeight="300.0" minWidth="300.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ejercicioclasejavafx.controladores.Controllers.LoginController">
+<BorderPane minHeight="300.0" minWidth="300.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cesur.dam.inventarioappg1.controllers.LoginController">
     <center>
         <VBox alignment="CENTER" spacing="20.0">
             <children>
@@ -21,7 +21,8 @@
                 <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@../../../fotologin.png" />
-                    </image></ImageView>
+                    </image>
+                </ImageView>
                 <Button fx:id="loginButton" alignment="CENTER" mnemonicParsing="false" onAction="#login" text="Login">
                     <padding>
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
